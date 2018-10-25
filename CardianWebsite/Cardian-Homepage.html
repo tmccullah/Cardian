@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<!-- Style Sheet by Tori McCullah -->
+<link rel="stylesheet" href="Cardian-StyleSheet.css">
+<!-- Import font available for re-use via Google Apis Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDi9vOxy_Jec9hvqY9Y2PBHhH57rxM93D0",
+            authDomain: "iotcapstone2018-2081d.firebaseapp.com",
+            databaseURL: "https://iotcapstone2018-2081d.firebaseio.com",
+            projectId: "iotcapstone2018-2081d",
+            storageBucket: "iotcapstone2018-2081d.appspot.com",
+            messagingSenderId: "586399471266"
+        };
+        firebase.initializeApp(config);
+    </script>
+    
+    <style>
+        body, nav, footer, header, button
+        {
+            font-family: 'Montserrat', sans-serif
+        }
+        
+        div 
+        {
+            background-color: inherit;
+            margin: 0;
+            padding: 20px;
+            width: 100%;
+        }
+    </style>
+</head>
+    
+    
+<!-- Navbar -->
+<nav>
+    <a class="active" href="Cardian-Homepage.html">
+        Home</a>
+    <a href="Cardian-About.html">
+        About Us</a>
+    <a href="Cardian-Purchase.html">
+        Purchase</a>
+    <a href="Cardian-Tutorial.html">
+        Tutorial</a>
+    <a href="Cardian-SignUp.php">
+        Register Device</a>
+    <a class="image" href="Cardian-Homepage.html"><img src="images/Cardian-Wings.jpeg" height=25px width=80px alt="Cardian Wings" class="flt"></a>
+    <br><br><hr>
+</nav>
+    
+    
+<header style="height:600px">
+    <img src="images/Cardian-Logo.jpg" alt="Cardian Logo">
+    <h3>Engineered By</h3>
+    <h4>Jade Corn, Tori McCullah, Roger Slatter, Micah Veale, and An Vu</h4>
+    <!-- here -->
+    <a href="Cardian-SignUp.php" class=btn> Register Device </a>
+</header>
+    
+    
+<body>
+    <body1>
+        <div class="row">
+        <h1 align="center">About Us</h1>
+        
+            <div class="column bigSide">
+            <h4>
+                Our goal is to protect our customers cars. Our security system will provide you with an ease of mind knowing that your vehicle is safe.</h4>
+
+            <h5 class="grayText">
+                Our company was founded in 2018 by five individuals. The hardware was created by Roger Slattery and An Vu while the software was created by Jade Corn, Tori McCullah, and Micah Veale. The Cardian site is designed for the user to be able to purchase our products and register their devices. To use the app and monitor your activity log, please use our Android app. This can be found in the Google Play store.</h5>
+            </div>
+            
+            <div class="column smallSide">
+                <img src="images/CardianBlueSide.JPG" height=250 width=250>
+            </div>
+        </div>
+    </body1>
+    
+    <br>
+    
+    <body2>
+        <div class="row">
+            <h1 align="center">Why Cardian</h1>
+            
+            <div class="column smallSide">
+                <img src="images/CardianBlueFront.JPG" height=250 width=250>
+            </div>
+            
+            <div class="column bigSide">
+            <h4>
+                Protect your vehicle. Stay up-to-date on your car's safety. Monitor activity from potential hazards. </h4>
+
+            <h5 class="grayText">
+                Have you ever had your car broken into? Has your car ever been side-swept? Have you ever been involved in a hit-and-run? Do you worry about keeping your car safe while you are away? In a recent study, about 1 in 8 Americans have had their car broken into. Of that same study, more than half of participants had their car damaged while they were absent. It also found that about 1 in 5 people have been involved in a hit and run. 
+                <br><br>
+                Our company has designed a new piece of technology to help drivers all across America feel more safe about their cars. Now, with our system, you are able to check into your car at any time. It also has a built in alarm system to dissuade intruders. Our app will notify you when any suspicious activity occurs. These features will help protect you and your car along with identify perpetrators.</h5>
+            </div>
+        </div>
+    </body2>
+</body>
+    
+    
+<footer>
+    <h4>Corn - McCullah - Slattery - Veale - Vu</h4>
+</footer>
+</html>

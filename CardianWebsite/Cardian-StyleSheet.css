@@ -1,0 +1,219 @@
+
+html
+{
+    background-color: white;
+    box-sizing:border-box;
+    margin:0;
+    padding: 0px;
+    height: 100%;
+}
+
+*, *:before, *:after 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+    margin:0;
+    padding: 0px;
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.btn
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    border-radius: 3px;
+}
+.btn:hover 
+{
+  background-color: goldenrod;
+}
+
+
+header
+{
+    background-color: #99D9EA;
+    display: block;
+    padding: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 300px;
+    vertical-align: middle;
+}
+
+footer
+{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    position: static;
+    padding: 5px;
+}
+
+/* Navigation Bar */
+nav
+{
+    overflow: hidden;
+    background-color: #99D9EA;
+    width:100%;
+    border:none;
+    display:block;
+    float:left;
+    outline:0;
+    padding: 20px 0px;
+    text-align: left;
+}
+
+/* Navigation Bar Links */
+nav a
+{
+    float: center;
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 27px 30px;
+    font-size: 20px;
+}
+
+/* to signal that you are currently on selected page */
+.active
+{
+    background-color: white;
+    color: gold;
+}
+
+.active:hover
+{
+    background-color: gold;
+    color: white;
+}
+
+
+/* Nav Bar Link when hoovered */
+nav a:hover:not(.active)
+{
+    background-color: white;
+    color: black;
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+h2
+{
+    font-size: 40px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+h4
+{
+    font-size: 20px;
+}
+
+h5
+{
+    font-size: 15px;
+}
+
+.grayText
+{
+    color: #696969;
+}
+
+hr
+{
+ 	width: 100%;
+	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    height: 10px;
+    border: 0;
+    background-color: #99D9EA;
+}
+
+img
+{
+    border-style: none;
+}
+
+.flt
+{
+    float: right;
+}
+
+a.image:hover:not(.active)
+{
+    background: #99d9ea;
+}
+
+body1
+{
+    margin:0;
+    padding: 0px;
+    width: 100%;
+    display: block;
+    background-color: white;
+}
+
+body2
+{
+    margin:0;
+    padding: 0px;
+    width: 100%;
+    display: block;
+    background-color: #DFDFDA;
+}
+.column
+{
+    float:left;
+}
+
+.bigSide 
+{
+  width: 70%;
+}
+.smallSide 
+{
+  width: 30%;
+}
+.equalSides
+{
+    width: 50%;
+    padding: 20px;
+}
+
+/* clear column after format so it doesn't carry over */
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table
+{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
